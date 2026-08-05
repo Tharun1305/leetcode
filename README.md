@@ -129,6 +129,6 @@ It motivates me to continue solving and sharing more problems.
 
 ---
 
-# Happy Coding! 💙
+# Happy Coding! 🩵
 
 > *"Consistency beats intensity. One problem every day builds extraordinary problem-solving skills."*

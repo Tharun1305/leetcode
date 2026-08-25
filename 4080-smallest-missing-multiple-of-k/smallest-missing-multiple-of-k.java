@@ -1,16 +1,16 @@
-class Solution{
-    public int missingMultiple(int[] nums,int k){
+class Solution {
+    public int missingMultiple(int[] nums, int k) {
         int x=k;
         while(true){
-            boolean found=false;
-            for(int num:nums){
-                if(num==x){
-                    found=true;
-                    break;
-                }
+          boolean res=false;
+          for(int num:nums){
+            if(num==x){
+                res=true;
+                break;
             }
-            if(!found) return x;
-            x+=k;
+          }
+          if(!res) return x;
+          x+=k;
         }
     }
 }
